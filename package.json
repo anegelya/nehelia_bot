@@ -1,0 +1,26 @@
+{
+  "name": "nehelia_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0",
+    "tesseract.js": "^1.0.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anegelya/nehelia_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anegelya/nehelia_bot/issues"
+  },
+  "homepage": "https://github.com/anegelya/nehelia_bot#readme"
+}
