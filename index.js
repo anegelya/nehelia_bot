@@ -41,7 +41,10 @@ bot.on('photo', (img) => {
         Tesseract.recognize(filename, {
           lang: 'ukr'
         })
-        .progress(function  (p) { console.log('progress', p)  })
+        .progress(function  (p) { 
+          console.log('progress', p)
+          bot.sendChatAction(chatId, action = 'upload_photo')
+        })
         .catch(err => console.error(err))
         .then(function (result) {
           console.log(result.text)
