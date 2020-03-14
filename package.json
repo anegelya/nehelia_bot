@@ -6,7 +6,7 @@
   "dependencies": {
     "node-telegram-bot-api": "^0.30.0",
     "nodemon": "^1.19.4",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "tesseract.js": "^1.0.19"
   },
   "devDependencies": {},
